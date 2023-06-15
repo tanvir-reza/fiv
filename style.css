@@ -1,5 +1,5 @@
 body{
-    height: 20000px;
+    height: auto;
 }
 .sec-1{
     background-image: url(./asset/banner-img.png);
@@ -72,13 +72,18 @@ border-radius: 8px;
 .f2{
     text-align: justify;
 }
+/* .f2 ::after{
+    content: "";
+  clear: fix;
+} */
 .items{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 .footer{
-    background-image: url(./asset/f-bg.png);
+    /* background-image: url(./asset/f-bg.png); */
+    background-color: #050A24;
     width: 100%; 
     height: auto; 
     background-size: 100% 100%;  
@@ -99,7 +104,7 @@ border-radius: 8px;
     color: white;
     text-decoration: none;
     float: left;
-    padding: 12px;
+    
 }
 .footer2{
     display: flex;
@@ -112,14 +117,14 @@ border-radius: 8px;
   bottom: 0;
   width: 100%;
 }
-
+.w a{
+    font-weight: 400;
+}
 /* Style the links inside the navigation bar */
-.nar a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
+.play-btn{
+        position: absolute;
+    /* margin: 0; */
+    /* padding: 0; */
+    top: 569px;
+    left: 950px;
 }
