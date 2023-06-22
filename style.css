@@ -1,6 +1,8 @@
 body{
     height: auto;
+    
 }
+
 .sec-1{
     background-image: url(./asset/banner-img.png);
     width: 100%; 
@@ -52,13 +54,23 @@ border-radius: 8px;
     font-size: 37px;
 }
 .sec-3{
-    background-image: url(./asset/bg-re.png) ;
-    width: 100%; 
-    height: auto; 
+    /* background-image: url(./asset/bg-re.png) ; */
+       background-color: #F2F2F2;
+    width: 94%;
+    height: 595px;
+    margin-top: 204px;
     position: relative;
-    background-size: 100% 100%;  
-    background-repeat: no-repeat;
+    transform: skew(-31deg, 20deg);
+    border-radius: 200px 167px 232px 245px;
 }
+
+
+.con{
+    transform: skew(+31deg, -20deg);
+}
+
+
+
 .mission{
     display: flex;
     align-items: center;
@@ -127,4 +139,167 @@ border-radius: 8px;
     /* padding: 0; */
     top: 569px;
     left: 950px;
+}
+
+
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .sec-3{
+    background-color: #F2F2F2;
+    width: 100%;
+    height: 239px !important;
+    margin-top: 204px;
+    position: relative;
+    transform: skew(-56deg, 24deg);
+    border-radius: 200px 167px 232px 245px;
+  }
+  .con{
+    transform: skew(56deg, -24deg);
+}
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .sec-3{
+    background-color: #F2F2F2;
+    width: 100%;
+    height: 210px !important;
+    margin-top: 204px;
+    position: relative;
+    transform: skew(-58deg, 31deg);
+    border-radius: 293px 39px 161px 386px;
+
+  }
+  .write{
+    line-height: 15px !important;
+  }
+  .digit{
+    font-size: 25px !important;
+    font-weight: bold !important;
+  }
+  .con{
+    margin-top: 0 !important;
+    transform: skew(58deg, -31deg);
+}
+.f1 h1{
+    font-size: 8px !important;
+}
+.f2 h1{
+    font-size: 8px !important;
+}
+p{
+    font-size: 5px !important;
+}
+  .f1{
+        width: 100%;
+    margin-left: 199px !important;
+}
+.line {
+    height: 6px;
+    /* color: aquamarine; */
+    background-color: #00008B;
+    width: 63px;
+    border-radius: 8px;
+}
+.f2{
+    margin-left: 293px !important;
+    margin-top: -20px !important;
+    width: 100% !important;
+    margin-bottom: 75px !important;
+}
+.off{
+    margin-bottom: 152px !important;
+}
+.sec-title h1{
+    font-size: 20px !important;
+}
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .sec-3{
+    background-color: #F2F2F2;
+    width: 100%;
+    height: 300px !important;
+    margin-top: 204px;
+    position: relative;
+    transform: skew(-56deg, 24deg);
+    border-radius: 200px 167px 232px 245px;
+}
+.con{
+    transform: skew(56deg, -24deg);
+}
+.con h1,p{
+    font-size: 10px !important;
+}
+.line {
+    height: 6px;
+    /* color: aquamarine; */
+    background-color: #00008B;
+    width: 63px;
+    border-radius: 8px;
+}
+.f1{
+        width: 100%;
+    margin-left: 155px !important;
+}
+.f2{
+        width: 100% !important;
+    margin-bottom: 86px !important;
+}
+.off{
+    margin-bottom: 152px !important;
+}
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .sec-3 {
+    background-color: #F2F2F2;
+    width: 100%;
+    height: 339px;
+    margin-top: 228px;
+    position: relative;
+    transform: skew(-52deg, 24deg);
+    border-radius: 200px 202px 189px 159px;
+}
+
+.digit{
+    font-size: 25px !important;
+    font-weight: bold !important;
+  }
+.con{
+    transform: skew(52deg, -24deg);
+}
+.con h1,p{
+    font-size: 10px !important;
+}
+.sec-4{
+    margin-top: 180px !important;
+}
+.line {
+    height: 6px;
+    /* color: aquamarine; */
+    background-color: #00008B;
+    width: 63px;
+    border-radius: 8px;
+}
+.f1{
+        width: 100%;
+        margin-top: 46px !important;
+    margin-left: 208px !important;
+}
+.f2{
+        width: 100% !important;
+    margin-bottom: 86px !important;
+}
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .sec-4{
+    margin-top: 180px !important;
+}
 }
